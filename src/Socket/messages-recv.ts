@@ -639,6 +639,7 @@ export const makeMessagesRecvSocket = (config: SocketConfig) => {
 	return {
 		...sock,
 		sendMessageAck,
+		rejectCall,
 		sendRetryRequest
 	}
 }
